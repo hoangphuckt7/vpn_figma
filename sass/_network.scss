@@ -1,0 +1,21 @@
+.network {
+  margin-top: 150px;
+  padding: 0 30px;
+  text-align: center;
+  max-width: 555px;
+  &-heading {
+    padding: 0 50px;
+  }
+  &-img {
+    margin-top: 155px;
+  }
+}
+.partner {
+  margin-bottom: 50px;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 60px;
+  }
+}

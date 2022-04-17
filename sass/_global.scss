@@ -1,0 +1,47 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body {
+  font-family: $font;
+  line-height: 1;
+  color: $text-color;
+  font-weight: 400;
+  // background-color: $bg-color;
+}
+.button {
+  display: inline-block;
+  padding: 13px 45px;
+  font-family: $font;
+  border-radius: 100rem;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+  &--outline {
+    background-color: transparent;
+    color: $primary-color;
+    border: 1px solid;
+    font-weight: 500;
+  }
+  &--primary {
+    background-color: $primary-color;
+    color: white;
+    font-weight: 700;
+  }
+  &--rounded {
+    border-radius: 10px;
+    padding: 17px 65px;
+    box-shadow: 0 30px 54px -5px rgba(245, 56, 56, 0.35);
+  }
+  &--shadow {
+    box-shadow: 0 30px 54px -5px rgba(245, 56, 56, 0.35);
+  }
+}

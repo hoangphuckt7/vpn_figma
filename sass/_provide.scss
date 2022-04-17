@@ -1,0 +1,37 @@
+.provide {
+  padding-bottom: 130px;
+  background-image: linear-gradient(to top, white, transparent);
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0 170px;
+  }
+
+  &-content {
+    width: 100%;
+    max-width: 428px;
+  }
+
+  &-heading {
+    color: #0b132a;
+  }
+
+  &-desc {
+    font-size: 16px;
+    color: #4f5665;
+    font-weight: 400;
+    margin-bottom: 23px;
+  }
+
+  &-list {
+    list-style: none;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    gap: 0 10.08px;
+    margin-bottom: 21px;
+  }
+}

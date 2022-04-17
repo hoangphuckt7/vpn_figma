@@ -1,0 +1,37 @@
+.counter {
+  margin-bottom: 95px;
+  &-container {
+    padding: 37px 0;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 42px 114px 0 rgba(13, 16, 37, 0.064);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 36.5px;
+  }
+
+  &-item:nth-child(2) {
+    height: 125.57px;
+    border-left: 2px solid #eeeff2;
+    border-right: 2px solid #eeeff2;
+  }
+
+  &-info {
+    line-height: 30px;
+  }
+
+  &-title {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  &-text {
+    font-size: 20px;
+  }
+}

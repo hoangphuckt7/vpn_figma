@@ -5,12 +5,12 @@ $(".customer-list").slick({
   dots: true,
   nextArrow: `
     <button type="button" class="slick-next">
-      <img srcset="/images/arrowLeft.png 2x" />
+      <img srcset="./images/arrowLeft.png 2x" />
     </button>
   `,
   prevArrow: `
     <button type="button" class="slick-prev">
-      <img srcset="/images/arrowRight.png 2x" />
+      <img srcset="./images/arrowRight.png 2x" />
     </button>
   `,
   responsive: [

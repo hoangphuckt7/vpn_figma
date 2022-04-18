@@ -19,3 +19,17 @@
     gap: 0 60px;
   }
 }
+@media screen and (max-width: 767px) {
+  .network-heading {
+    padding: unset;
+  }
+  .network-img {
+    margin-top: 50px;
+  }
+  .partner-container {
+    gap: 0 20px;
+  }
+  .partner {
+    margin-bottom: 20px;
+  }
+}

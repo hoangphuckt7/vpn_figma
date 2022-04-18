@@ -17,7 +17,6 @@
     align-items: center;
     box-shadow: 0 42px 114px 0 rgb(13 16 37 / 6%);
     &__content {
-      width: 410px;
       text-align: left;
     }
     &__h1 {
@@ -106,5 +105,18 @@
       background-color: $primary-color;
       width: 45px;
     }
+  }
+}
+@media screen and (min-width: 768px) {
+  .customer-card__content {
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .customer-card {
+    padding: 20px 45px;
+    flex-direction: column;
+    gap: 20px 0;
   }
 }

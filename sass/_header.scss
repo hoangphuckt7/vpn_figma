@@ -28,3 +28,23 @@
     color: inherit;
   }
 }
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 15px 0px 25px 0px;
+    & .menu {
+      display: none;
+    }
+    &-auth {
+      display: none;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+}

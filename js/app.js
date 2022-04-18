@@ -13,4 +13,16 @@ $(".customer-list").slick({
       <img srcset="/images/arrowRight.png 2x" />
     </button>
   `,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+        arrows: false,
+      },
+    },
+  ],
 });
